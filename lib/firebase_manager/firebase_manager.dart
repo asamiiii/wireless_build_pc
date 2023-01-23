@@ -5,6 +5,7 @@ String projectId ='wireless-build-tool';
 
 bool? isExist;
 List<String> IdList=[];
+bool? commandSuccess=false;
 
 
 var reff = Firestore.instance.collection('users');
